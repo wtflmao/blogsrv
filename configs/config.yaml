@@ -1,0 +1,26 @@
+Server:
+  RunMode: debug
+  HttpPort: 8000
+  ReadTimeOut: 60
+  WriteTimeOut: 60
+App:
+  DefaultPageSize: 10
+  MaxPageSize: 100
+  LogSavePath: storage/logs
+  LogFileName: app
+  LogFileExt: .log
+Database:
+  DBType: mysql
+  #Username: mysql5453029
+  #Password: mRA9f9tTXn
+  #Host: mysql.mysql001.com:3306
+  #DBName: mysql5453029_db
+  Username: potatouser
+  Password: potato
+  Host: localhost
+  DBName: blog_service
+  TablePrefix: blog_
+  Charset: utf8
+  ParseTime: True
+  MaxIdleConns: 10
+  MaxOpenConns: 30
